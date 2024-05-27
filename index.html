@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="flex__wrapper">
+      <section class="container hero">
+        <img src="images/logo.svg" alt="Base Apparel Logo" class="logo" />
+        <div class="hero__img">
+          <img
+            src="images/hero-mobile.jpg"
+            alt="A Model Wearing Base Apparel Latest Design"
+            width="375"
+            height="250"
+          />
+        </div>
+        <p class="content__text">
+          We're <span class="content__bold">coming soon</span>
+        </p>
+        <div class="newsletter__wrapper">
+          <p class="newsletter__text">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </div>
+        <div class="input__wrapper">
+          <input type="email" placeholder="Email Address" id="email" />
+          <img class="error__img" src="images/icon-error.svg" alt="" />
+          <button class="btn">
+            <img src="images/icon-arrow.svg" alt="" />
+          </button>
+        </div>
+        <p class="message">Please provide a valid email</p>
+      </section>
+      <div class="desktop__img">
+        <img
+          src="images/hero-desktop.jpg"
+          alt="A Model Wearing Base Apparel Latest Design"
+          width="610"
+          height="800"
+        />
+      </div>
+    </section>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ifunanya Judith</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
