@@ -20,7 +20,6 @@ Users should be able to:
 - Mobile-first workflow
 - Javascript
 ### What I learned
-Use this section to recap over some of your major learnings while working through this project.
 -I learnt CSS positioning
 -Javscript Classlist
 -Dom Manipulation
